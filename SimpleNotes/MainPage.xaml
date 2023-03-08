@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SimpleNotes.MainPage">
+    <Grid Background="GhostWhite"
+          RowDefinitions="60, Auto"
+          Padding="20"
+          >
+        <Grid Grid.Row="0"
+              ColumnDefinitions=".75*,.25*">
+            <Entry
+            Placeholder="Add Note"
+            FontSize="20"
+                />
+            <Button Grid.Column="1"
+                    Text="+"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    FontSize="40"
+                    Padding="-20"
+                    CornerRadius="50"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    />
+        </Grid>
+        <CollectionView>
+            
+        </CollectionView>
+
+
+ 
+
+
+
+    </Grid>
+   
+
+</ContentPage>
